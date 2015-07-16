@@ -22,12 +22,46 @@ h1,h2,h3,p{
   width:inherit;
 }
 
-input[type=text]{
+input {
   font-family: neue;
+}
+
+input[type=text]{
   padding:0;
   margin:0;
   width:inherit;
 }
+
+input.form-message {
+  height: 11em;
+  vertical-align: text-top;
+}
+
+input[type=submit]{
+  font-family: neuethin;
+  font-size: 1.1em;
+  line-height: 1em;
+  padding:0;
+  margin:0;
+}
+
+/* Placeholder colors */
+// ::-webkit-input-placeholder { /* WebKit browsers */
+//     color:    #494949;
+// }
+// :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+//    color:    #494949;
+//    opacity:  1;
+// }
+// ::-moz-placeholder { /* Mozilla Firefox 19+ */
+//    color:    #494949;
+//    opacity:  1;
+// }
+// :-ms-input-placeholder { /* Internet Explorer 10+ */
+//    color:    #494949;
+// }
+
+
 
 h1{
   font-size: 1.6em;
