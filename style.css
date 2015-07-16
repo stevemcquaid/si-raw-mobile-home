@@ -1,0 +1,133 @@
+@font-face {
+    font-family: neuethin;
+    src: url(HelveticaNeueThin.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: neue;
+    src: url(HelveticaNeue.ttf);
+    font-weight: normal;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+h1,h2,h3,p{
+  font-family: neuethin;
+  padding:0;
+  margin:0;
+  width:inherit;
+}
+
+input[type=text]{
+  font-family: neue;
+  padding:0;
+  margin:0;
+  width:inherit;
+}
+
+h1{
+  font-size: 1.6em;
+}
+
+h2{
+  font-size: 1.0em;
+}
+
+p{
+  font-size: 1.0em;
+}
+
+.light{
+  background-color: #847777;
+}
+
+.dark{
+  background-color: #494949;
+}
+
+.underline{
+  border-bottom: 1px solid #494949;
+}
+
+.block{
+  display:block;
+  float:left;
+  width:100%;
+  box-sizing:border-box;
+}
+
+#title{
+  padding: 5px 0px 5px 10px;
+  color: #494949;
+  box-sizing:border-box;
+}
+
+#description{
+  padding: 10px;
+}
+
+#container{
+  min-width:250px;
+}
+
+.list{
+  padding: 20px 10px 10px 10px;
+  color: #494949;
+  box-sizing:border-box;
+}
+
+.list h2{
+  padding:10px 0px 10px 5px;
+}
+
+.greybox{
+  width: 30px;
+	height: 30px;
+	background: #494949;
+  float:left;
+  margin: 5px 5px 0px 5px;
+}
+
+.accordion .header{
+  color: #fff;
+  padding: 50px 0px 10px 10px;
+}
+
+
+.accordion .content p{
+  color: #494949;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.accordion .content .moreLink{
+  display:block;
+  float:right;
+  padding: 0px 20px 10px 0px;
+  color: #494949;
+}
+
+.contact{
+  color: #494949;
+}
+
+.contact h1{
+  padding:0px 0px 0px 10px;
+  box-sizing:border-box;
+}
+
+.contact input{
+  width:100%;
+  padding:10px;
+  box-sizing:border-box;
+  color: #494949;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border-bottom: 1px solid #494949;
+}
+
